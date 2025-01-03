@@ -1,7 +1,7 @@
 import requests
 url = "https://jsonplaceholder.typicode.com/posts"
 res = requests.get(url)
-print(f"成功したか？：{res.status_code}")
+print(f"request status code：{res.status_code}")
 """
 成功したか？：200
 """
@@ -19,7 +19,7 @@ params = {
     "id": 3
 }
 res = requests.get(url, params)
-print(f"成功したか？：{res.status_code}")
+print(f"request status code：{res.status_code}")
 print(res.json())
 """
 成功したか？：200
