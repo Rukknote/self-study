@@ -1,0 +1,10 @@
+{
+    "[python]": {
+      "editor.formatOnSave": true, //ファイル保存時に適用
+      "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit", //自動
+        "source.organizeImports": "explicit" //import文のソート
+      },
+      "editor.defaultFormatter": "charliermarsh.ruff" //formatterにruff指定
+    }
+  }
